@@ -1,13 +1,16 @@
 import styled from 'styled-components'
+import { colors } from "../../styles/GlobalStyle"
 
 export const Section = styled.section`
   margin: 0 auto;
-  background-color: #212425;
-  min-height: calc(100vh - 10rem);
-  h1 {
-    color: white;
-    padding-bottom: 8rem;}
-
-  span a {
-    padding: 12rem;}
+  body {
+    background-color: ${colors.secondary};}
+  img {
+    width: 100%;
+  }
+div{
+  padding-top: 10rem;
+  display: flex;
+  justify-content: space-around;
+}
 `
