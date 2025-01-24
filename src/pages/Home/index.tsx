@@ -9,9 +9,9 @@ export function Home() {
     <Section>
        <h1>VOTAÇÃO DA SEMANA: </h1>
         <div>
-            <Link to="\duna"> <img src={img1} alt="imgduna" /></Link>
-            <Link to="\zodiac"> <img src={img3} alt="imgzodiac" /></Link>
-            <Link to="\batman"> <img src={img2} alt="imgbatman" /></Link>
+            <Link to="/duna"> <img src={img1} alt="imgduna" /></Link>
+            <Link to="/zodiac"> <img src={img3} alt="imgzodiac" /></Link>
+            <Link to="/batman"> <img src={img2} alt="imgbatman" /></Link>
         </div>
     </Section>
   )

@@ -13,9 +13,9 @@ export const RouteSoftware = () => {
         <Route path="/cadastrar" element={<PageCadastrar />} />
         <Route path="/login" element={<PageLogin />} />
 
-        <Route path="/duna" element={<PageDuna />}></Route>
-        <Route path="/zodiac" element={<PageZodiac />}></Route>
-        <Route path="/batman" element={<PageBatman />}></Route>
+        <Route path="/duna" element={<PageDuna />} />
+        <Route path="/zodiac" element={<PageZodiac />} />
+        <Route path="/batman" element={<PageBatman />} />
         <Route path="/adm" element={<ProtectedRoute />}>
           <Route path="" element={<PageAdm />} />
         </Route>

@@ -25,9 +25,6 @@ export function Header() {
           <li>
             <Link to="/">Início</Link>
           </li>
-          <li>
-            <Link to="/comentario">Comentário</Link>
-          </li>
         </ul>
         {
           user ? (
